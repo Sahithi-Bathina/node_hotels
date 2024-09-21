@@ -28,6 +28,6 @@ const menuItemSchema = new mongoose.Schema({
     }
 })
 
-//create Person model
+//create Person model for testing purpose
 const menu = mongoose.model("menu" , menuItemSchema);
 module.exports = menu;
